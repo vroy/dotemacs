@@ -1,5 +1,9 @@
-;; no startup msg  
+;; no startup msg
 (setq inhibit-startup-message t)
+
+
+;; no toolbar in GUI mode
+(tool-bar-mode -1)
 
 
 ;; Enable ido / flx-ido
