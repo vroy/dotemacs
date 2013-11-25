@@ -29,3 +29,17 @@
   (unless (fboundp 'comment-or-uncomment-region-or-line)
     (allow-line-as-region-for-function comment-or-uncomment-region)))
 (textmate-define-comment-line)
+
+
+(defun backward-kill-line (arg)
+  "Kill ARG lines backward."
+  (interactive "p")
+  (kill-line (- 1 arg)))
+
+
+(defun prelude-kill-whole-line (&optional arg)
+  "A simple wrapper around command `kill-whole-line' that respects indentation.
+Passes ARG to command `kill-whole-line' when provided."
+  (interactive "p")
+  (kill-whole-line arg)
+  (back-to-indentation))
