@@ -14,6 +14,7 @@
 (global-set-key [(meta tab)] 'other-window)
 
 (global-set-key (kbd "s-f") 'projectile-find-file)
+(global-set-key (kbd "s-t") 'projectile-find-test-file)
 (global-set-key (kbd "s-g") 'projectile-grep)
 
 (global-set-key (kbd "s-k") 'prelude-kill-whole-line)
