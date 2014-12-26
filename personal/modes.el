@@ -2,6 +2,8 @@
 (require 'haml-mode)
 (require 'coffee-mode)
 (require 'yaml-mode)
+(require 'scss-mode)
+(require 'sass-mode)
 
 ;; Auto setup of modes based on extensions
 (add-to-list 'auto-mode-alist '("\\.xhtml$" . rhtml-mode) )
@@ -14,7 +16,7 @@
 (add-to-list 'auto-mode-alist '("\\.haml$" . haml-mode) )
 
 (add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode) )
-(add-to-list 'auto-mode-alist '("\\.sass$" . scss-mode) )
+(add-to-list 'auto-mode-alist '("\\.sass$" . sass-mode) )
 (add-to-list 'auto-mode-alist '("\\.styl$" . scss-mode) )
 (add-to-list 'auto-mode-alist '("\\.less$" . scss-mode) )
 
