@@ -10,6 +10,9 @@
 ;; Disable blinking cursor...
 (blink-cursor-mode -1)
 
+(require 'helm-projectile)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
 
 ;; Enable ido with a config similar to prelude
 (require 'ido)

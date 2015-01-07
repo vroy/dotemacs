@@ -1,5 +1,6 @@
 ;; Fix "C-c C-k" to work for sass-mode
 (global-set-key (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
+(define-key (current-global-map) (kbd "C-c C-k") 'comment-or-uncomment-region-or-line)
 
 ;; @todo When opening a new window, ensure that the new window gets focus.
 (global-set-key (kbd "C-x |") 'split-window-horizontally)
@@ -16,9 +17,14 @@
 (global-set-key [(control tab)] 'other-window)
 (global-set-key [(meta tab)] 'other-window)
 
-(global-set-key (kbd "s-f") 'projectile-find-file)
-(global-set-key (kbd "s-t") 'projectile-find-test-file)
-(global-set-key (kbd "s-g") 'projectile-grep)
+;; HELM
+(global-set-key (kbd "s-f") 'helm-projectile-find-file)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "s-p") 'helm-projectile-switch-project)
+
+; @todo Find a way to use helm with ido style competions (backspace on dir, tab, enter, etc)
+; (global-set-key (kbd "C-x C-f") 'helm-find-files)
+
 
 (global-set-key (kbd "s-k") 'vince-kill-whole-line)
 
