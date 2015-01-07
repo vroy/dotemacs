@@ -17,16 +17,12 @@
 (global-set-key [(control tab)] 'other-window)
 (global-set-key [(meta tab)] 'other-window)
 
-;; HELM
-(global-set-key (kbd "s-f") 'helm-projectile-find-file)
-(global-set-key (kbd "M-x") 'helm-M-x)
-(global-set-key (kbd "s-p") 'helm-projectile-switch-project)
-
-; @todo Find a way to use helm with ido style competions (backspace on dir, tab, enter, etc)
-; (global-set-key (kbd "C-x C-f") 'helm-find-files)
-
-
 (global-set-key (kbd "s-k") 'vince-kill-whole-line)
+
+;; projectile
+(global-set-key (kbd "s-t") 'projectile-find-file)
+(global-set-key (kbd "s-p") 'projectile-switch-project)
+(global-set-key (kbd "s-f") 'projectile-ag)
 
 ;; guru-mode
 (global-set-key (kbd "<up>") 'nil)
@@ -34,15 +30,5 @@
 (global-set-key (kbd "<right>") 'nil)
 (global-set-key (kbd "<down>") 'nil)
 
-
-;; @todo This pelude style rename filw and buffer doesn't work - perhaps something to do with ido configs?
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)
-
-;; @todo
-;; C-c C-f => default projectile find files
-;; C-c C-t => Find test files
-;; C-c C-c => Find coffee files
-;; C-c C-v => Find view files
-;; C-c C-s => Find stylesheet files
-;; C-c C-r => Find ruby files

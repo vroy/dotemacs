@@ -4,7 +4,7 @@
 
 ;; Project
 (depends-on "projectile")
-(depends-on "helm")
+(depends-on "ag")
 
 ;; interactive buffers
 (depends-on "flx")
