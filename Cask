@@ -5,6 +5,7 @@
 ;; Project
 (depends-on "projectile")
 (depends-on "ag")
+(depends-on "grizzl")
 
 ;; interactive buffers
 (depends-on "flx")
@@ -26,3 +27,5 @@
 (depends-on "diminish")
 
 (depends-on "exec-path-from-shell")
+
+; @todo https://github.com/magnars/multiple-cursors.el
