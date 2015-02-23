@@ -4,6 +4,7 @@
 (require 'yaml-mode)
 (require 'scss-mode)
 (require 'sass-mode)
+(require 'nginx-mode)
 
 ;; Auto setup of modes based on extensions
 (add-to-list 'auto-mode-alist '("\\.xhtml$" . rhtml-mode) )
@@ -35,3 +36,5 @@
 (add-to-list 'auto-mode-alist '("\\.thor$" . ruby-mode) )
 
 (add-to-list 'auto-mode-alist '("\/\\.env" . sh-mode) )
+
+(add-to-list 'auto-mode-alist '("/etc/nginx/sites-available/.*" . nginx-mode))

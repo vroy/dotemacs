@@ -74,6 +74,8 @@
 ;; Set default tab width
 (setq-default tab-width 2)
 
+(setq nginx-indent-level 2)
+
 
 ;; highlight the current line
 (global-hl-line-mode +1)

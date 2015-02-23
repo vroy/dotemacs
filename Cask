@@ -20,6 +20,9 @@
 (depends-on "scss-mode")
 (depends-on "sass-mode")
 
+;; https://github.com/ajc/nginx-mode
+(depends-on "nginx-mode")
+
 ;; Themes
 (depends-on "zenburn-theme")
 
