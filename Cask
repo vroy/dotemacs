@@ -25,6 +25,8 @@
 
 (depends-on "apache-mode")
 
+(depends-on "markdown-mode")
+
 ;; Themes
 (depends-on "zenburn-theme")
 
