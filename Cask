@@ -23,6 +23,8 @@
 ;; https://github.com/ajc/nginx-mode
 (depends-on "nginx-mode")
 
+(depends-on "apache-mode")
+
 ;; Themes
 (depends-on "zenburn-theme")
 
