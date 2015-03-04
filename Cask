@@ -27,6 +27,8 @@
 
 (depends-on "markdown-mode")
 
+(depends-on "handlebars-mode")
+
 ;; Themes
 (depends-on "zenburn-theme")
 
