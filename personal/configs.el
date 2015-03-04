@@ -76,6 +76,9 @@
 
 (setq nginx-indent-level 2)
 
+;; Auto scroll compilation output (rspec-mode)
+(setq compilation-scroll-output t)
+
 
 ;; highlight the current line
 (global-hl-line-mode +1)
