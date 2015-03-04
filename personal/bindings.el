@@ -32,3 +32,21 @@
 
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)
+
+
+;; Some custom binding for rspec-mode. Note that the resulting
+;; command are "C-i" as per the translation at the end.
+;;
+;; See also:
+;;
+;;     http://barelyenough.org/projects/rspec-mode/
+;;     https://github.com/pezra/rspec-mode/
+;;
+(global-set-key (kbd "s-i C-v") 'rspec-verify)
+(global-set-key (kbd "s-i C-a") 'rspec-verify-all)
+(global-set-key (kbd "s-i C-t") 'rspec-toggle-spec-and-target)
+(global-set-key (kbd "s-i C-r") 'rspec-rerun)
+(global-set-key (kbd "s-i C-s") 'rspec-verify-single)
+
+;; http://stackoverflow.com/a/4513683
+(keyboard-translate ?\C-i ?\s-i)

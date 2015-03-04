@@ -29,6 +29,8 @@
 
 (depends-on "handlebars-mode")
 
+(depends-on "rspec-mode")
+
 ;; Themes
 (depends-on "zenburn-theme")
 
