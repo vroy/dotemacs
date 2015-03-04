@@ -12,6 +12,8 @@
 (depends-on "flx-ido")
 (depends-on "ido-ubiquitous")
 
+(depends-on "yasnippet")
+
 ;; Modes
 (depends-on "rhtml-mode")
 (depends-on "haml-mode")

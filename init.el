@@ -7,3 +7,4 @@
 (load "modes.el")
 (load "bindings.el")
 (load "hooks.el")
+(load "snippets.el")
