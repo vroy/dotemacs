@@ -17,4 +17,4 @@
 (keyboard-translate ?\C-i ?\s-i)
 
 ;; Auto scroll compilation output
-(setq compilation-scroll-output t)
+(setq compilation-scroll-output nil)
