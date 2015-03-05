@@ -8,3 +8,4 @@
 (load "bindings.el")
 (load "hooks.el")
 (load "snippets.el")
+(load "rspec.el")
