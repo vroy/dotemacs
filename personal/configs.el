@@ -43,16 +43,8 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 
-;; Configure theme
-(load-theme 'zenburn t)
-
-
 ;; Enable shift+arrows to switch windows.
 (windmove-default-keybindings)
-
-
-;; Set default font size to 16pt.
-(set-face-attribute 'default (selected-frame) :height 160)
 
 
 ;; revert buffers automatically when underlying files are changed externally

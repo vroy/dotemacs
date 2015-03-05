@@ -3,6 +3,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/personal/")
 (load "configs.el")
+(load "theme.el")
 (load "functions.el")
 (load "modes.el")
 (load "bindings.el")

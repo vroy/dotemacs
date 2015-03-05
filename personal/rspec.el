@@ -18,12 +18,3 @@
 
 ;; Auto scroll compilation output
 (setq compilation-scroll-output t)
-
-;; Custom background for rspec-compilation-mode buffer.
-;; http://stackoverflow.com/a/26810331
-(defface rspec-compilation-mode-face '((t :background "#2b303b"))
-  "Custom background color for rspec-mode." :group 'basic-faces)
-
-(add-hook 'rspec-compilation-mode-hook
-          (lambda ()
-            (face-remap-add-relative 'default 'rspec-compilation-mode-face)))
