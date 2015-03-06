@@ -12,6 +12,7 @@
 (global-set-key (kbd "s-i C-a") 'rspec-verify-all)             ;; All
 (global-set-key (kbd "s-i C-t") 'rspec-toggle-spec-and-target) ;; Toggle
 (global-set-key (kbd "s-i C-e") 'rspec-verify-single)          ;; Example
+(global-set-key (kbd "s-i C-r") 'rspec-rerun)                  ;; Rerun
 
 ;; http://stackoverflow.com/a/4513683
 (keyboard-translate ?\C-i ?\s-i)
