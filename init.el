@@ -5,6 +5,7 @@
 (load "configs.el")
 (load "theme.el")
 (load "functions.el")
+(load "search.el")
 (load "modes.el")
 (load "bindings.el")
 (load "hooks.el")

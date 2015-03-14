@@ -34,3 +34,6 @@
 
 ;; C-x C-r => prelude style file rename
 (global-set-key (kbd "C-x C-r") 'vince-rename-file-and-buffer)
+
+;; C-s C-d => goes to next instance of word under cursor. Use C-s to repeat.
+(define-key isearch-mode-map (kbd "C-d") 'isearch-yank-symbol)
