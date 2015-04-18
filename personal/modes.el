@@ -34,6 +34,7 @@
 (add-to-list 'auto-mode-alist '("Rakefile$" . ruby-mode) )
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode) )
 (add-to-list 'auto-mode-alist '("\\.thor$" . ruby-mode) )
+(add-to-list 'auto-mode-alist '("\\.rabl$" . ruby-mode) )
 
 (add-to-list 'auto-mode-alist '("\/\\.env" . sh-mode) )
 
