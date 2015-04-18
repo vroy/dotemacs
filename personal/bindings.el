@@ -37,3 +37,9 @@
 
 ;; C-s C-d => goes to next instance of word under cursor. Use C-s to repeat.
 (define-key isearch-mode-map (kbd "C-d") 'isearch-yank-symbol)
+
+
+(global-set-key (kbd "<escape>") 'god-mode-all)
+(define-key god-local-mode-map (kbd "i") 'god-local-mode)
+(define-key god-local-mode-map (kbd "z") 'god-local-mode)
+(define-key god-local-mode-map (kbd ".") 'repeat)

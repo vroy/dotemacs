@@ -1,6 +1,8 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
+(require 'god-mode)
+
 (add-to-list 'load-path "~/.emacs.d/personal/")
 (load "configs.el")
 (load "theme.el")

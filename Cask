@@ -44,3 +44,6 @@
 
 ;; https://github.com/Fanael/relative-line-numbers
 (depends-on "relative-line-numbers")
+
+;; https://github.com/chrisdone/god-mode
+(depends-on "god-mode")
