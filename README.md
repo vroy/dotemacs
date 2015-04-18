@@ -13,14 +13,14 @@ These instruction assumes that you are using Homebrew and a Mac.
     brew install emacs --with-cocoa
     brew linkapps emacs
     brew install cask
-    git clone git@github.com:vroy/emacs-config.git ~/.emacs.d/
+    git clone git@github.com:vroy/dotemacs.git ~/.emacs.d/
     cd ~/.emacs.d/
     cask
 
 
 ## Contributing
 
-1. Fork it ( https://github.com/vroy/emacs-config/fork )
+1. Fork it ( https://github.com/vroy/dotemacs/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
