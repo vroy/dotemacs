@@ -124,3 +124,6 @@
 
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
+
+
+(global-relative-line-numbers-mode)

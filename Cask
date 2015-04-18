@@ -41,4 +41,6 @@
 
 (depends-on "exec-path-from-shell")
 
-; @todo https://github.com/magnars/multiple-cursors.el
+
+;; https://github.com/Fanael/relative-line-numbers
+(depends-on "relative-line-numbers")
