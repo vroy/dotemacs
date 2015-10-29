@@ -73,3 +73,13 @@ Passes ARG to command `kill-whole-line' when provided."
     (switch-to-buffer
      (get-buffer-create (generate-new-buffer-name "*scratch*")))
     (emacs-lisp-mode)))
+
+
+(defun js2space ()
+  (interactive)
+  (setq js-indent-level 2))
+
+
+(defun marked ()
+  (interactive)
+  (start-process "marked" "marked" "open" "-a" "Marked" (buffer-file-name)))
