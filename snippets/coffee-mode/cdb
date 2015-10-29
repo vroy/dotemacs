@@ -1,0 +1,4 @@
+#name : console.debug
+#group : collections
+# --
+console.debug("$1", $2)
