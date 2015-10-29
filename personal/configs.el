@@ -121,9 +121,13 @@
 (provide 'configs)
 
 
+(setenv "SHELL" "/usr/local/bin/fish")
 
 (when (memq window-system '(mac ns))
-  (exec-path-from-shell-initialize))
+  (exec-path-from-shell-initialize)
+  (exec-path-from-shell-copy-env "GOPATH"))
+
+
 
 
 (global-relative-line-numbers-mode)

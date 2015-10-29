@@ -47,3 +47,10 @@
 
 ;; https://github.com/chrisdone/god-mode
 (depends-on "god-mode")
+
+;; External dependencies:
+;; go get code.google.com/p/rog-go/exp/cmd/godef
+;; go get github.com/kisielk/errcheck
+;; go get -u github.com/nsf/gocode
+(depends-on "go-mode")
+(depends-on "go-errcheck")

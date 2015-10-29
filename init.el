@@ -13,3 +13,4 @@
 (load "hooks.el")
 (load "snippets.el")
 (load "rspec.el")
+(load "golang.el")
