@@ -1,3 +1,8 @@
+;; http://agel.readthedocs.org/en/latest/index.html#
+(setq ag-highlight-search t)
+(setq ag-reuse-buffers 't)
+
+
 ;; http://www.emacswiki.org/emacs/SearchAtPoint#toc4
 (require 'etags)
 
