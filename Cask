@@ -1,4 +1,5 @@
 ;; Self
+(source gnu)
 (source melpa)
 (depends-on "cask")
 
@@ -47,6 +48,15 @@
 
 ;; https://github.com/chrisdone/god-mode
 (depends-on "god-mode")
+
+;; http://blog.cesarolea.com/clojure-and-emacs-sitting-in-a-tree/
+(depends-on "paredit")
+(depends-on "company")
+(depends-on "cider")
+(depends-on "clojure-mode")
+(depends-on "auto-complete")
+(depends-on "ac-cider")
+
 
 ;; External dependencies:
 ;; go get code.google.com/p/rog-go/exp/cmd/godef

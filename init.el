@@ -13,4 +13,6 @@
 (load "hooks.el")
 (load "snippets.el")
 (load "rspec.el")
+(load "clojure-cfg.el")
+(load "paredit-cfg.el")
 (load "golang.el")
