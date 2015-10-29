@@ -39,3 +39,6 @@
 (add-to-list 'auto-mode-alist '("\/\\.env" . sh-mode) )
 
 (add-to-list 'auto-mode-alist '("/etc/nginx/sites-available/.*" . nginx-mode))
+
+
+(add-to-list 'auto-mode-alist '("COMMIT_EDITMSG$" . diff-mode))
