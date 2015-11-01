@@ -64,3 +64,5 @@
 ;; go get -u github.com/nsf/gocode
 (depends-on "go-mode")
 (depends-on "go-errcheck")
+
+(depends-on "py-autopep8")

@@ -16,3 +16,4 @@
 (load "clojure-cfg.el")
 (load "paredit-cfg.el")
 (load "golang.el")
+(load "python-cfg.el")
