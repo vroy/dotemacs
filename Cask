@@ -62,6 +62,7 @@
 ;; go get code.google.com/p/rog-go/exp/cmd/godef
 ;; go get github.com/kisielk/errcheck
 ;; go get -u github.com/nsf/gocode
+;; go get golang.org/x/tools/cmd/goimports
 (depends-on "go-mode")
 (depends-on "go-errcheck")
 
