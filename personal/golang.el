@@ -1,5 +1,3 @@
-(add-hook 'before-save-hook #'gofmt-before-save)
-
 (defun go-rerun ()
   (interactive)
   (compile compile-command))
