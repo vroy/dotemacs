@@ -22,6 +22,8 @@
       ido-default-file-method 'selected-window
       ido-auto-merge-work-directories-length -1)
 (ido-mode +1)
+(ido-vertical-mode 1)
+(setq ido-vertical-define-keys 'C-n-and-C-p-only)
 (ido-ubiquitous-mode +1)
 (flx-ido-mode +1) ;; smarter fuzzy matching for ido
 (setq ido-use-faces nil) ;; disable ido faces to see flx highlights

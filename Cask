@@ -12,6 +12,7 @@
 (depends-on "flx")
 (depends-on "flx-ido")
 (depends-on "ido-ubiquitous")
+(depends-on "ido-vertical-mode")
 
 (depends-on "yasnippet")
 
