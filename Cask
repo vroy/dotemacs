@@ -23,17 +23,13 @@
 (depends-on "yaml-mode")
 (depends-on "scss-mode")
 (depends-on "sass-mode")
-
-;; https://github.com/ajc/nginx-mode
-(depends-on "nginx-mode")
-
+(depends-on "nginx-mode") ;; https://github.com/ajc/nginx-mode
 (depends-on "apache-mode")
-
 (depends-on "markdown-mode")
-
 (depends-on "handlebars-mode")
-
 (depends-on "rspec-mode")
+(depends-on "dockerfile-mode")
+(depends-on "groovy-mode")
 
 (depends-on "scad-mode")
 

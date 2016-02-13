@@ -37,6 +37,7 @@
 (add-to-list 'auto-mode-alist '("\\.rabl$" . ruby-mode) )
 
 (add-to-list 'auto-mode-alist '("\/\\.env" . sh-mode) )
+(add-to-list 'auto-mode-alist '("inventory" . sh-mode) )
 
 (add-to-list 'auto-mode-alist '("/etc/nginx/sites-available/.*" . nginx-mode))
 
