@@ -35,6 +35,8 @@
 
 (depends-on "rspec-mode")
 
+(depends-on "scad-mode")
+
 ;; Themes
 (depends-on "zenburn-theme")
 
