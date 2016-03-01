@@ -58,11 +58,12 @@
 
 
 ;; External dependencies:
-;; go get code.google.com/p/rog-go/exp/cmd/godef
-;; go get github.com/kisielk/errcheck
+;; go get -u github.com/rogpeppe/godef
+;; go get -u github.com/kisielk/errcheck
 ;; go get -u github.com/nsf/gocode
-;; go get golang.org/x/tools/cmd/goimports
+;; go get -u golang.org/x/tools/cmd/goimports
 (depends-on "go-mode")
 (depends-on "go-errcheck")
+(depends-on "go-autocomplete")
 
 (depends-on "py-autopep8")
